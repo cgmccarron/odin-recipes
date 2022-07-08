@@ -1,22 +1,33 @@
 body {
   font-family: 'Londrina Solid', cursive;
   }
+#section1 {
+  background-color: bisque;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(autofit, minmax(240px, 1fr));
+  overflow: hidden;
+}
+#recipe_list {
+  background-color: bisque;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(autofit, minmax(240px, 1fr));
+}
+
+#title_script {
+  color: slategray;
+  background-color: bisque;
+  padding: 2%;
+  text-align: center;
+  font-size: 5em;
+}
+#title_script .homepage {
+  font-size: 7em;
+}
+
 h1 {
     color: black;
     font-family: 'Londrina Shadow', cursive;
   }
-img {
-  padding: 2%;
-  margin: 1%;
-  display: inline;
-  position: relative;
-  width: 25%;
-  float: left;
-}
-
-p .description {
-  padding: 2%;
-  margin: 2%;
-  display: inline;
-  float: right;
-}
+  
