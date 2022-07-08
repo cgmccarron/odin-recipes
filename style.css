@@ -1,0 +1,22 @@
+body {
+  font-family: 'Londrina Solid', cursive;
+  }
+h1 {
+    color: black;
+    font-family: 'Londrina Shadow', cursive;
+  }
+img {
+  padding: 2%;
+  margin: 1%;
+  display: inline;
+  position: relative;
+  width: 25%;
+  float: left;
+}
+
+p .description {
+  padding: 2%;
+  margin: 2%;
+  display: inline;
+  float: right;
+}
