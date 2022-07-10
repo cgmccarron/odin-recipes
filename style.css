@@ -4,10 +4,18 @@ body {
   }
 
 h1 {
-    color: slategray;
+    color: darkslategray;
     font-family: 'Londrina Shadow', cursive;
     text-align: center;
+    font-size: 3rem;
   }
+
+h3 {
+    color: darkslategray;
+    font-family: 'Londrina Shadow', cursive;
+    text-align: center;
+    font-size: 2rem;
+}
 
 #recipe_list {
   display: grid;
@@ -18,7 +26,7 @@ h1 {
 
 #recipe {
   background-color: beige;
-  color: slategray;
+  color: darkslategray;
   border: slategray solid;
   text-align: center;
   padding: 10%;
@@ -42,4 +50,27 @@ h1 {
   border-style: inset;
   border-width: .5rem;
 }
+
+#section2 {
+  display: grid;
+  grid-template-rows: auto;
+  place-items: center;
+  border: slategray inset .25rem;
+}
+
+#section2 ul {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+#section3 {
+  display: grid;
+  grid-template-rows: auto;
+  place-items: center;
+  background-color: beige;
+  border: slategray inset .25rem;
+}
+
   
